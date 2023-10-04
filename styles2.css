@@ -1,0 +1,100 @@
+/* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif; /* ページ全体のフォントファミリーを設定 */
+  background-color: #f0f0f0; /* ページの背景色を灰色に設定 */
+  text-align: center; /* ページ内のテキストを中央寄せに設定 */
+  margin: 0; /* ページの外側の余白をゼロに設定 */
+  padding: 0; /* ページの内側の余白をゼロに設定 */
+}
+
+/* コンテナ */
+.container {
+  max-width: 800px; /* コンテナの最大幅を800pxに設定 */
+  margin: 0 auto; /* コンテナを水平方向に中央配置 */
+  padding: 20px; /* コンテナ内の余白を設定 */
+  background-color: #fff; /* コンテナの背景色を白に設定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* コンテナに影を追加 */
+  border-radius: 50px; /* コンテナの角を丸める */
+}
+
+/* タイトル */
+h1 {
+  font-size: 28px; /* タイトルのフォントサイズを28pxに設定 */
+  margin-bottom: 20px; /* タイトルの下の余白を設定 */
+}
+
+/* テキストエリア */
+textarea {
+  width: 100%; /* テキストエリアを幅100%に設定 */
+  padding: 5px; /* テキストエリア内の余白を設定 */
+  margin-bottom: 10px; /* テキストエリアの下の余白を設定 */
+  border: 1px solid #ccc; /* テキストエリアの境界線を設定 */
+  border-radius: 5px; /* テキストエリアの角を丸める */
+  resize: vertical; /* 垂直方向のリサイズを許可 */
+  font-family: Arial, sans-serif; /* フォントファミリーを設定 */
+  font-size: 20px; /* フォントサイズを16pxに設定 */
+}
+
+/* テキストボックス */
+input[type="text"] {
+  width: 100%; /* テキストボックスを幅100%に設定 */
+  padding: 5px; /* テキストボックス内の余白を設定 */
+  margin-bottom: 10px; /* テキストボックスの下の余白を設定 */
+  border: 1px solid #ccc; /* テキストボックスの境界線を設定 */
+  border-radius: 5px; /* テキストボックスの角を丸める */
+  font-family: Arial, sans-serif; /* フォントファミリーを設定 */
+  font-size: 20px; /* フォントサイズを16pxに設定 */
+}
+
+/* 置換ボタン */
+#replaceButton {
+  padding: 10px 20px; /* ボタン内の余白を設定 */
+  background-color: #007bff; /* ボタンの背景色を青に設定 */
+  color: #fff; /* ボタンのテキスト色を白に設定 */
+  border: none; /* ボタンの境界線を削除 */
+  border-radius: 5px; /* ボタンの角を丸める */
+  cursor: pointer; /* マウスカーソルをポインターに設定 */
+  font-size: 18px; /* ボタンのフォントサイズを18pxに設定 */
+  transition: background-color 0.3s ease; /* ボタンのホバー時のトランジションを設定 */
+}
+
+/* 置換ボタンホバー時のスタイル */
+#replaceButton:hover {
+  background-color: #0056b3; /* ホバー時の背景色を変更 */
+}
+
+/* 結果表示 */
+/* p {
+  font-weight: lighter;
+  font-size: 20px;
+} */
+#result {
+  font-size: 20px; /* 結果表示のフォントサイズを20pxに設定 */
+  border-bottom: 1px solid #ccc; /* 区切り線のスタイルを設定 */
+  padding-bottom: 10px; /* 区切り線の下の余白を設定 */
+}
+
+#resultContainer{
+  font-weight: bold; /* 結果コンテナ内のテキストを太字に設定 */
+  font-size: 20px; /* 結果コンテナ内のフォントサイズを20pxに設定 */
+}
+
+/* リフレッシュボタンのスタイル */
+#refreshButton {
+  position: absolute; /* 要素を絶対位置に設定 */
+  top: 10px; /* 上からの位置を10pxに設定 */
+  right: 10px; /* 右からの位置*/
+  padding: 10px 20px; /* ボタン内の余白を設定 */
+  background-color: dimgray; /* ボタンの背景色を青に設定 */
+  color: #fff; /* ボタンのテキスト色を白に設定 */
+  border: none; /* ボタンの境界線を削除 */
+  border-radius: 5px; /* ボタンの角を丸める */
+  cursor: pointer; /* マウスカーソルをポインターに設定 */
+  font-size: 18px; /* ボタンのフォントサイズを18pxに設定 */
+  transition: background-color 0.3s ease; /* ボタンのホバー時のトランジションを設定 */
+}
+
+/* ボタンホバー時のスタイル */
+#refreshButton:hover {
+  background-color: #0056b3; /* ホバー時の背景色を変更 */
+}
